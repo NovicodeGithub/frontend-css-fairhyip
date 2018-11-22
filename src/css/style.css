@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background-image: url(/images/bg_body.jpg);
+	background-image: url(images/bg_body.jpg);
 	padding-bottom: 30px;
 	font-family: sans-serif;
 	height: 100%;
@@ -33,6 +33,7 @@ header {
 .lang-list {
 	position: absolute;
 	top: 40px;
+	left: 0;
 }
 
 .lang-item {
@@ -80,8 +81,6 @@ header {
 }
 
 .mainmenu {
-	overflow-y: auto;
-	height: 80px;
 	margin-top: 50px;
 	line-height: 40px;
 	font-size: 14px;
@@ -124,7 +123,6 @@ header {
 .auth {
 	position: absolute;
 	top: 40px;
-	right: 120px;
 }
 
 .logo {
